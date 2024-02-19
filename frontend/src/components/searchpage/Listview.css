@@ -1,0 +1,76 @@
+.contain {
+  max-width: 150rem;
+}
+
+.card-data h3 {
+  font-size: 25px;
+  font-weight: 800px;
+}
+.grid {
+  gap: 3.2rem;
+}
+
+.fig {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s linear;
+}
+.fig::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.fig:hover::after {
+  width: 100%;
+}
+.fig:hover .imgs {
+  transform: scale(1.2);
+}
+.imgs {
+  max-width: 90%;
+  margin-top: 1.5rem;
+  height: 20rem;
+  transition: all 0.2s linear;
+}
+
+
+.btn_o{
+  text-decoration: none;
+max-width: 15rem;
+height: 3.2rem;
+margin-top: 1rem;
+background-color: rgb(98 84 243);
+color: rgb(255 255 255);
+padding: 0.2rem 2rem;
+font-size: 15px;
+border: none;
+border-radius: 2px;
+text-transform: uppercase;
+text-align: center;
+cursor: pointer;
+transition: all 0.3s ease;
+
+}
+
+.btn_o:hover,
+.btn_o:active {
+  box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
+  transform: scale(0.96);
+}
+
+.btn_o a {
+  text-decoration: none;
+  color: rgb(255 255 255);
+  font-size: 15px;
+}
+

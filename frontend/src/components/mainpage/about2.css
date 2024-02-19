@@ -1,0 +1,242 @@
+@media (max-width: 986px) {
+  .meet-the-team {
+    font-size: 20px;
+  }
+
+  .for-developers {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.for-developers,
+.meet-the-team {
+  position: absolute;
+  top: 69px;
+  left: calc(50% - 107px);
+  font-family: var(--font-inder);
+}
+.for-developers {
+  top: 141px;
+  left: calc(50% - 182px);
+}
+.mansi-1-icon,
+.aryan-1-icon,
+.sam-1-icon {
+  position: absolute;
+  top: 324px;
+  left: 88px;
+  width: 243px;
+  height: 301px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.mansi-1-icon,
+.sam-1-icon {
+  left: 796px;
+  width: 255px;
+}
+.sam-1-icon {
+  left: 1132px;
+  width: 268px;
+}
+
+.desktop-2-item {
+  position: absolute;
+  top: 625px;
+  left: 88px;
+  background-color: var(--color-gainsboro);
+  width: 241px;
+  height: 85px;
+}
+.desktop-2-item {
+  background-color: var(--color-white);
+}
+.aryan-gandhi {
+  position: absolute;
+  top: 633px;
+  left: 94px;
+  font-weight: 800;
+}
+.rectangle-div {
+  position: absolute;
+  top: 625px;
+  left: 429px;
+  background-color: var(--color-white);
+  width: 271px;
+  height: 85px;
+}
+.manya-garg {
+  position: absolute;
+  top: 628px;
+  left: 473px;
+  font-weight: 800;
+}
+.manya-1-icon {
+  position: absolute;
+  top: 324px;
+  left: 429px;
+  width: 271px;
+  height: 304px;
+  object-fit: cover;
+}
+.desktop-2-child1 {
+  position: absolute;
+  top: 628px;
+  left: 796px;
+  background-color: var(--color-white);
+  width: 255px;
+  height: 82px;
+}
+.mansi-bakshi {
+  position: absolute;
+  top: 628px;
+  left: 808px;
+  font-weight: 800;
+  text-align: center;
+  display: inline-block;
+}
+.desktop-2-child2 {
+  position: absolute;
+  top: 628px;
+  left: 1132px;
+  background-color: var(--color-white);
+  width: 268px;
+  height: 82px;
+}
+.saumya-bansal {
+  position: absolute;
+  top: 628px;
+  left: 1135px;
+  font-weight: 800;
+  text-align: center;
+  display: inline-block;
+  width: 251px;
+}
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-lavender);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+
+@media (max-width: 986px) {
+  .sam-1-icon {
+    top: 580px;
+    left: 88px;
+    height: 25%;
+    width: 30%;
+  }
+
+  .mansi-1-icon {
+    top: 580px;
+    left: 429px;
+    height: 25%;
+    width: 242px;
+    width: 30%;
+  }
+
+  .manya-1-icon {
+    top: 220px;
+    height: 25%;
+    width: 242px;
+    width: 30%;
+  }
+
+  .aryan-1-icon {
+    top: 220px;
+    left: 88px;
+    height: 25%;
+    width: 30%;
+  }
+  .aryan-gandhi {
+    position: absolute;
+    top: 478px;
+    left: 99px;
+    font-weight: 600;
+    font-size: 70%;
+    width: 30%;
+    text-align: center;
+  }
+
+  .desktop-2-item {
+    position: absolute;
+    top: 475px;
+    left: 88px;
+    background-color: var(--color-white);
+    width: 242px;
+    height: 60px;
+    width: 30%;
+  }
+
+  .rectangle-div {
+    position: absolute;
+    background-color: var(--color-white);
+    width: 242px;
+    height: 60px;
+    top: 475px;
+    width: 30%;
+  }
+
+  .manya-garg {
+    position: absolute;
+    top: 478px;
+    font-weight: 600;
+    font-size: 70%;
+    width: 30%;
+    left: 429px;
+    text-align: center;
+  }
+
+  .mansi-bakshi {
+    position: absolute;
+    top: 835px;
+    font-weight: 800;
+    font-size: 70%;
+    left: 45%;
+    width: 30%;
+    text-align: center;
+  }
+
+  .saumya-bansal {
+    position: absolute;
+    top: 835px;
+    font-weight: 600;
+    font-size: 70%;
+    left: 88px;
+    width: 30%;
+    text-align: center;
+  }
+
+  .desktop-2-child1 {
+    position: absolute;
+    top: 835px;
+    left: 88px;
+    background-color: var(--color-white);
+    width: 242px;
+    height: 60px;
+    width: 30%;
+  }
+
+  .desktop-2-child2 {
+    position: absolute;
+    background-color: var(--color-white);
+    width: 242px;
+    height: 60px;
+    top: 835px;
+    left: 429px;
+    width: 30%;
+  }
+
+  .for-developers {
+    left: 30%;
+  }
+
+  .meet-the-team {
+    left: 0%;
+  }
+}

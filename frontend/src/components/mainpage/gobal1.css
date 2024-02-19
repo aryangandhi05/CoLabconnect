@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-stix-two-text: "STIX Two Text";
+  --font-crimson-pro: "Crimson Pro";
+  --font-crimson-text: "Crimson Text";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-9xl: 28px;
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-gray: rgba(0, 0, 0, 0.67);
+  --color-black: #000;
+  --color-white: #fff;
+}

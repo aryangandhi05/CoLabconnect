@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@800&display=swap");
+
+body {
+  margin: 0;
+  /* line-height: normal; */
+}
+
+:root {
+  /* fonts */
+  --font-stix-two-text: "STIX Two Text";
+  --font-crimson-pro: "Crimson Pro";
+  --font-inder: Inder;
+  --font-inknut-antiqua: "Inknut Antiqua";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --color-lavender: #efe9ff;
+  --color-gray-100: rgba(0, 0, 0, 0.67);
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+}
+
+.who-we-are {
+  margin-top: 95px;
+  left: calc(595px + 0.2vh);
+  margin-left: 13%;
+  width: 202px;
+  height: 27px;
+}
+.who-we-are-child {
+  content: "";
+  left: 200px;
+  margin-top: 90px;
+  margin-right: 85%;
+  position: absolute;
+  background-color: #ffce31;
+  width: 61px;
+  height: 6px;
+}
+
+.colabconnect-is-your {
+  margin-top: calc(25px + 0.1vh);
+  position: absolute;
+  top: calc(50% - 385px);
+  left: calc(50% + 86px);
+  margin-right: 10%;
+  display: inline-block;
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  width: 61px;
+  width: 619px;
+  height: 326px;
+}
+.desktop-1-item {
+  position: absolute;
+  top: 446px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 578px;
+}
+.our-mission {
+  position: absolute;
+  top: 512px;
+  left: calc(50% + 17px);
+}
+.in-todays-educational {
+  position: absolute;
+  top: 611px;
+  left: calc(50% + 86px);
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.63);
+  display: inline-flex;
+  width: 600px;
+  height: 248px;
+}
+.image-1-icon,
+.image-2-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.image-2-icon {
+  top: 343px;
+  left: 67px;
+  width: 579px;
+  height: 422px;
+  mix-blend-mode: multiply;
+}
+.image-1-icon {
+  top: 19px;
+  left: 16px;
+  width: 78px;
+  height: 75px;
+  mix-blend-mode: multiply;
+}
+
+.about-us1 {
+  margin: 0;
+}
+.about-us {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 49px;
+  left: 1163px;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  font-family: var(--font-stix-two-text);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  width: 91px;
+  height: 12px;
+}
+
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-lavender);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-inder);
+}
+
+@media (max-width: 986px) {
+  .who-we-are {
+    width: 100%;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  .colabconnect-is-your {
+    font-size: 20px;
+    text-align: left;
+    margin-left: -50%;
+  }
+  .who-we-are-child {
+    margin-right: 40%;
+    margin-left: 10%;
+    margin-top: 15%;
+    width: 8%;
+    height: 0.5%;
+  }
+
+  .our-mission {
+    font-size: 20px;
+    top: 62%;
+    left: 40%;
+    right: 40%;
+  }
+  .image-2-icon {
+    top: 343px;
+    left: 150px;
+    width: 379px;
+    height: 222px;
+    mix-blend-mode: multiply;
+  }
+  .in-todays-educational {
+    font-size: 15px;
+    top: 70%;
+    left: 10%;
+    right: 10%;
+  }
+}

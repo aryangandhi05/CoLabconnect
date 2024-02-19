@@ -1,0 +1,85 @@
+/* Basic styling for the footer */
+.Footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the footer sections */
+.Footer-section {
+  flex-basis: 25%;
+}
+
+.Footer-section h4 {
+  font-size: 18px;
+  color: white;
+}
+
+.Footer-section p {
+  font-size: 18px;
+  color: white;
+}
+/* Style the subscribe form */
+.subscribe-section {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+}
+
+.subscribe-form button {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.subscribe-form button {
+  background-color: #b05ff8; /* Background color */
+  color: #fff; /* Font color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold; /* Make the font bold */
+  border-radius: 10px; /* Add border radius */
+}
+#purple {
+  color: #b05ff8;
+}
+
+/* CSS for the footer logo */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.footer-logo img {
+  max-width: 50px; /* Set the maximum width of the image */
+  max-height: 50px; /* Set the maximum height of the image */
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .Footer {
+    flex-direction: column;
+  }
+  .subscribe-section {
+    margin-top: 20px;
+  }
+}

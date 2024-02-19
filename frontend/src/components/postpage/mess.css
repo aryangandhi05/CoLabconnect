@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.Mess {
+  min-height: 100vh;
+  display: flex;
+  background: rgb(221, 191, 248);
+  background: linear-gradient(
+    90deg,
+    rgba(221, 191, 248, 1) 0%,
+    rgba(245, 242, 252, 1) 100%,
+    rgba(245, 242, 252, 1) 100%
+  );
+  background-size: cover;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

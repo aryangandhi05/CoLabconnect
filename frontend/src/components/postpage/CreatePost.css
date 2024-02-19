@@ -1,0 +1,132 @@
+.createp {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(172, 85, 247);
+  background: linear-gradient(
+    90deg,
+    rgb(207, 162, 246) 0%,
+    rgb(220, 208, 246) 100%,
+    rgba(245, 242, 252, 1) 100%);
+  padding: 85px;
+}
+
+.containerp {
+  position: relative;
+  background-color: #fff;
+  max-width: 950px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 45px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.containerp header {
+  position: relative;
+  font-size: 28px;
+  font-weight: 600;
+  color: #454545;
+  margin-bottom: 38px;
+}
+.containerp header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 3px;
+  width: 30px;
+  border-radius: 8px;
+  background-color: #b05ff8;
+}
+.containerp form {
+  position: relative;
+  margin-top: 16px;
+  min-height: 490px;
+  background-color: #fff;
+}
+.containerp form .titlep {
+  display: block;
+  font-size: 19px;
+  font-weight: 500;
+  margin: 6px 0;
+  color: #616060;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 48px;
+  margin-bottom: 6px;
+}
+.containerp form .fields {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+form .fields .input-field {
+  display: flex;
+  width: calc(100% / 3 -15px);
+  flex-direction: column;
+  margin: 16px 48px 0px 0px;
+}
+.input-field label {
+  font-size: 14.5px;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+.input-field i {
+  color: #b05ff8;
+}
+.input-field input,
+textarea {
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 0px 10px 0px 10px;
+  height: 40px;
+  width: 32vh;
+  margin: 9px 0;
+}
+.input-field .big {
+  padding-top: 1%;
+  width: 50vw;
+  height: 15vh;
+}
+.input-field input:is(:focus, :valid) {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0, 0.13);
+}
+.containerp .form-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  max-width: 200px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  margin: 25px 0;
+  background-color: #b05ff8;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.form-submit:hover {
+  background-color: #bd7af9;
+}
+@media (max-width: 750px) {
+  .containerp form {
+    overflow-y: scroll;
+  }
+  .containerp form::-webkit-scrollbar {
+    display: none;
+  }
+  form .fields .input-field {
+    width: calc(100% / 2 -15px);
+  }
+}
+@media (max-width: 550px) {
+  form .fields .input-field {
+    width: 100%;
+  }
+}

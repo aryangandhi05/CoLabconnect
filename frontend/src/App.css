@@ -1,0 +1,44 @@
+.logo {
+  max-width: 6vw;
+  max-height: 9vh;
+  border-radius: 50%;
+}
+.ntitle {
+  font-size: calc(12px + 0.5vw);
+  line-height: -10;
+}
+.nsubtitle {
+  font-size: calc(7px + 0.5vw);
+  color: #b05ff8;
+}
+
+
+/* EmailVerification.css */
+.verification-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+}
+
+.verification-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-link {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-link:hover {
+  background-color: #0056b3;
+}

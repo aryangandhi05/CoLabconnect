@@ -1,0 +1,8 @@
+.desktop-1-inner {
+  position: absolute;
+  top: -1px;
+  left: -5px;
+  background-color: var(--color-white);
+  width: 1396px;
+  height: 112px;
+}
